@@ -1,0 +1,82 @@
+body {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5em;
+    text-align: center;
+    color: dimgrey;
+}
+
+nav ul {
+    display: inline-flex;
+    list-style-type: none;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+li {
+    padding: 15px;
+    font-size: 1.3em;
+    
+    
+}
+header {
+    top: 0px;
+    left: 0px;
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    border-bottom: 1px solid dimgrey;
+    width:100%;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+#products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+#about-box {
+  background-image: url("background.jpg");
+  background-size: cover;
+  margin: auto;  
+  padding-top: 70px;
+  padding-bottom: 120px;
+}
+#products-box {
+    padding-top: 70px;
+}
+#contact-box {
+    padding-top: 70px;
+}
+#gallery-box{
+    padding-top: 70px;
+    padding-bottom: -50px;
+}
+#about {
+    background-color: white;
+    opacity: 0.8;
+    margin-top: 150px;
+    color: dimgray;
+}
+h3 {
+    width: 80%;
+    margin:auto;
+}
+main {
+    background-color: linen;
+    
+}
+#logo {
+    padding-left: 5px;
+}
+footer {
+    text-align: left;
+}
+#gallery img {
+    padding: 3px; 
+}
